@@ -1,0 +1,56 @@
+name: cash
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+environment:
+  sdk: ">=2.18.2 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  esc_pos_printer: ^4.1.0
+  screenshot: ^2.1.0
+  image: ^3.0.2
+  #  image: ^3.0.8
+  cupertino_icons: ^1.0.2
+  grouped_list: ^5.1.2
+  rive: ^0.9.1
+  flutter_svg: ^1.1.6
+  shared_preferences: ^2.0.2
+  iconsax: ^0.0.8
+  sizer: ^2.0.15
+  provider: ^6.0.5
+  timeago: ^3.4.0
+  intl: ^0.18.1
+  get: ^4.6.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/avaters/
+    - assets/Backgrounds/
+    - assets/icons/
+    - assets/RiveAssets/
+    - assets/logo/
+
+
+  fonts:
+    - family: Intel
+      fonts:
+        - asset: assets/Fonts/Inter-Regular.ttf
+        - asset: assets/Fonts/Inter-SemiBold.ttf
+          weight: 600
+    - family: Poppins
+      fonts:
+        - asset: assets/Fonts/Poppins-Bold.ttf
+          weight: 700
+
